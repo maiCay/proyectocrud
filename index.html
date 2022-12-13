@@ -52,7 +52,7 @@
                 <p class="sobre__descripcion">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad</p>
             </section>
             <section class="recetas" id="recetas" >
-                <button type="button" class="btn btn-secondary" onclick="location.href='create.html'">AGREGAR RECETA <i class="fa-solid fa-plus"></i></button>
+                <button type="button" class="btn btn-secondary" onclick="location.href='./Templates/create.html'">AGREGAR RECETA <i class="fa-solid fa-plus"></i></button>
                 <div class="recetas__container" id="app">
                     <div class="receta" v-for="receta in recetas">
                         <img alt="Tigela de abacate" class="receta__imagen" :src="receta.imagen" />
@@ -62,7 +62,7 @@
                             <div class="buttons">
                                 <button class="receta__boton">Ver receta</button>
                                 <button v-on:click="eliminar(receta.id)" class="btn-eliminar"><i class="fas fa-trash-alt trashIcon icon"></i></button>
-                                <a :href="'update.html?id='+receta.id+'&imagen='+receta.imagen+'&nombre='+receta.nombre+'&descripcion='+receta.descripcion"><i class="fa-solid fa-pen-to-square penIcon"></i></a>                              
+                                <a :href="'./Templates/update.html?id='+receta.id+'&imagen='+receta.imagen+'&nombre='+receta.nombre+'&descripcion='+receta.descripcion"><i class="fa-solid fa-pen-to-square penIcon"></i></a>                              
                             </div>
                         </div>
                     </div>
