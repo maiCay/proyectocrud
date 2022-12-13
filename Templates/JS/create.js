@@ -10,7 +10,7 @@ function guardar() {
         descripcion: d
     };
 
-    let url = "http://localhost:5000/recetas";
+    let url = "https://maicay.pythonanywhere.com/recetas";
     var options = {
         body: JSON.stringify(receta),
         method: 'POST',

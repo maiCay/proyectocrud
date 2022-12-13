@@ -21,7 +21,7 @@ function modificar() {
         descripcion: d
     }
 
-    let url = "http://localhost:5000/recetas/"+id;
+    let url = "https://maicay.pythonanywhere.com/recetas/"+id;
     var options = {
         body: JSON.stringify(receta),
         method: 'PUT',
