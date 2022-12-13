@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Recetas Caseras</title>
-        <link rel="shortcut icon" href="../assets/img/olla-caliente.png" type="image/x-icon">
-        <link href="../assets/css/normalize.css" rel="stylesheet" />
-        <link href="../assets/css/reset.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="./assets/img/olla-caliente.png" type="image/x-icon">
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/7a363f4c5b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./assets/css/header.css">
         <link rel="stylesheet" href="./assets/css/banner.css">
@@ -55,7 +55,7 @@
                 <button type="button" class="btn btn-secondary" onclick="location.href='./Templates/create.html'">AGREGAR RECETA <i class="fa-solid fa-plus"></i></button>
                 <div class="recetas__container" id="app">
                     <div class="receta" v-for="receta in recetas">
-                        <img alt="Tigela de abacate" class="receta__imagen" :src="receta.imagen" />
+                        <img alt="Imagen de la receta" class="receta__imagen" :src="receta.imagen" />
                         <div class="receta__contenido">
                             <h4 class="receta__titulo">{{receta.nombre}}</h4>
                             <p class="receta__descripcion">{{receta.descripcion}}</p>
