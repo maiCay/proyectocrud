@@ -1,0 +1,58 @@
+.quienes-somos{
+    background-color: #E5E5E5;
+}
+
+.quienes-somos__titulo{
+    font-family: 'Pacifico', 'cursive';
+    color: #8d0606;
+    font-weight: 400;
+    font-size: 3.188rem;
+    text-align: center;
+}
+
+
+.quienes-somos__descripcion{
+    color: #8C8888;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.persona{
+    width:  30%;
+    display: flex;
+    flex-direction: column; 
+    padding: 1rem;
+    text-align: center;
+}
+
+.persona__imagen{
+    width: 100%;
+    text-align: center;
+}
+
+.persona__nombre{
+    padding: 0.75rem;
+    color: #8d0606;
+    font-family: 'Pacifico', 'cursive';
+    font-size: 2rem;
+}
+
+
+.persona__funcion{
+    color:#8C8888
+}
+
+.persona__imagen--estilo{
+    border-radius: 50%;
+    width: 60%;
+}
+
+

@@ -1,0 +1,21 @@
+.pie-pagina{
+    background-color: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.cuadrado{
+
+    background-color: #8d0606;
+    width: 58px;
+    height: 57px;
+    margin-left: 1rem;
+}
+
+

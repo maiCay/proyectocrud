@@ -1,0 +1,27 @@
+.logo{
+    width: 60px;
+}
+
+.banner__imagen{
+    width: 100vw;
+    height: 400px;
+   /* height: calc(100vh - 72px);*/
+    background-image: url(../img/tabla-picar-rodeada-verduras-huevos-granos-arroz-escritorio_23-2148062361.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner__titulo{
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 60%;
+    font-family: 'Pacifico', 'cursive';
+    font-size: 5.0625rem;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    color: #fdfdfd;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
